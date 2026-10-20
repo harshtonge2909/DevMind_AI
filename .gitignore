@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[ocd]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets (CRITICAL: Never commit .env or secrets)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+
+# Vector database and DevMind AI local persistent data
+chroma_db/
+data/
+.devmind_backups/
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
